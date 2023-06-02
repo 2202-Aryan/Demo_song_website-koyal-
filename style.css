@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 40px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.container {
+  min-height: 90vh;
+  background-color: #d772aa;
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+  margin: 0 8px;
+  color: white;
+}
+
+#myProgressBar {
+  width: 100%;
+  height: 4px;
+  background-color: #ccc;
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+#myProgressBar .bar {
+  width: 0;
+  height: 100%;
+  background-color: #333;
+  transition: width 0.2s ease-in;
+}
+
+.songItemContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.songItem {
+  height: 60px;
+  display: flex;
+  background-color: rgba(205, 22, 22, 0.589);
+  color: black;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in;
+}
+
+.songItem:hover {
+  transform: scale(1.02);
+}
+
+.songItem img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.timestamp {
+  margin-left: auto;
+  color: #888;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  display: flex;
+  align-items: center;
+}
+
+.songInfo img {
+  width: 30px;
+  margin-right: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.songInfo:hover img {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
+}
