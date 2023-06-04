@@ -29,3 +29,7 @@ The songs used in this demo website are sourced from various artists and platfor
 1. The website design and functionality were inspired by similar music player applications.
 2. Thanks to the creators of the songs used in this demo.
 
+## web page
+
+<img width="948" alt="image" src="https://github.com/2202-Aryan/Demo_song_website-koyal-/assets/81973170/7182a2ce-53ca-4535-a402-e925131b0872">
+
